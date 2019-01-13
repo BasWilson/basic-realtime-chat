@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="messages.css" />
+</head>
+<body>
+
+    <!--All messages are appended to this div-->
+    <div id="chat-box">
+    </div>
+
+    <div class="send-container">
+        <input id="message-field" type="text" placeholder="Message">
+    </div>
+    
+    <!--The dependencies for Socket.IO and Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="messages.js"></script>
+
+</body>
+</html>

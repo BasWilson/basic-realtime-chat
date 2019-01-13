@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans';
+    margin: 0px;
+    padding: 0px;
+}
+
+#chat-box {
+    text-align: center;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.chat-message {
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin: 10px 0px;
+    width: fit-content;
+    max-width: 50%;
+    word-break: break-all;
+    display: none;
+}
+
+.to {
+    margin-left: auto; 
+    margin-right: 10px;
+    text-align: left;
+    background-color: #1A83FB;
+}
+.from {
+    margin-right: auto; 
+    margin-left:10px;
+    text-align: left;
+    background-color: #E5E4EA;
+    color: black;
+}
+
+.message-div { 
+    width: 100%;    
+}
+.send-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#message-field {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0px auto;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
